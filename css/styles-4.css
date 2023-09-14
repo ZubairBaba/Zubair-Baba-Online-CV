@@ -1,0 +1,24 @@
+/*
+ * Setting the style for the body means that all text content 
+ * will default to the specified style.
+ */
+body {				
+/* All text will be 20px from the left */
+margin-left: 20px;	
+
+/* Make the background a dark grey */
+background-color: #5b5151;
+
+/* Change all text to be monospaced font by default */
+font-family: monospace;
+
+/* Make the font color a shade of green */
+color: #ffffff;
+}
+  
+p {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
