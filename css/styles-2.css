@@ -105,3 +105,26 @@ table {
   background-color: #6f6f6f;
 }
 
+ol {
+ /* Disable the bullet point markers on the list items */
+    list-style-type: none;
+  
+    /* Remove any existing margin and padding space */
+    margin: 0;
+    padding: 0;
+  
+    /* Force anything that comes after the list to be below it */
+    overflow:hidden;
+}
+ol li {
+ float: left;  	
+  
+    /* pad 10 pixels all around the text */
+    padding: 10px;	
+  
+    /* Increase the font size by 20% relative to the normal size */
+    font-size: 120%;
+    
+    /* make the font colour white */
+    color: white;
+}
