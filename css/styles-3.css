@@ -79,3 +79,15 @@ ol {
     /* Force anything that comes after the list to be below it */
     overflow:hidden;
 }
+ol li {
+ float: left;  	
+  
+    /* pad 10 pixels all around the text */
+    padding: 10px;	
+  
+    /* Increase the font size by 20% relative to the normal size */
+    font-size: 120%;
+    
+    /* make the font colour white */
+    color: white;
+}
