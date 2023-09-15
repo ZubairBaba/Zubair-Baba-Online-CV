@@ -68,3 +68,14 @@
   clear: both;
   }
   
+ol {
+ /* Disable the bullet point markers on the list items */
+    list-style-type: none;
+  
+    /* Remove any existing margin and padding space */
+    margin: 0;
+    padding: 0;
+  
+    /* Force anything that comes after the list to be below it */
+    overflow:hidden;
+}
