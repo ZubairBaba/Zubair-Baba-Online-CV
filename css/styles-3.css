@@ -50,24 +50,13 @@
     float: left;  	
   
     /* pad 10 pixels all around the text */
-    padding: 20px;	
+    padding: 10px;	
   
     /* Increase the font size by 20% relative to the normal size */
     font-size: 120%;
     
     /* make the font colour white */
     color: white;
-
-    margin: 8px;
-
-     /* Clear the float to prevent layout issues */
-  clear: both;
-  }
-  
-    margin: 8px;
-
-     /* Clear the float to prevent layout issues */
-  clear: both;
   }
   
 ol {
