@@ -83,3 +83,14 @@ ol li {
     /* make the font colour white */
     color: white;
 }
+/* Define a custom bullet point style */
+.bullet-points {
+    padding-left: 20px; /* Add space for the bullet point */
+    text-indent: -20px; /* Indent the text to hide the default bullet point */
+}
+
+.bullet-points::before {
+    content: "\2022"; /* Use a Unicode bullet point character (•) */
+    margin-right: 5px; /* Add space between the bullet point and text */
+    color: #333; /* Customize the bullet point color */
+}
